@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+
+# Large / generated files
+app/model.pkl
+app/model_features.pkl
+
+# Optional: raw data if large
+data/churn_clean.csv
